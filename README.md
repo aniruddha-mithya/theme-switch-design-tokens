@@ -14,4 +14,4 @@ To test the functionality from scratch, do the following:
 * Rename the cssProperties.css file to `cssProperties-brand1.css`. Edit if necessary.
 * Use another figma tokens file and generate a new cssProperties file. The twConfig.json file will be identical to the previous one as long as no changes are made to the structure including the names of the keys.
 * Rename the newly generated cssProperties file to `cssProperties-brand2.css`. You may edit this file if necessary.
-* Now run the project by running the command `npm run dev` and visit <http://localhost:4002>. You should have an app that allows you to switch themes with the click of a button.
+* Now run the project by running the command `npm run dev` and visit <http://localhost:4002>. You should have an app that allows you to switch themes with the click of a button
