@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp ./cssProperties-brand1.css ./dist/cssProperties-brand1.css && cp ./cssProperties-brand2.css ./dist/cssProperties-brand2.css",
     "build-styles": "node build-tokens.mjs",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
